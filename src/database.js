@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost/collegedb",{
+//mongodb://localhost/collegedb
+mongoose.connect("mongodb://mongo:Yi8APvNYTR55vpF3VrbQ@containers-us-west-66.railway.app:8077",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
