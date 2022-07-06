@@ -12,6 +12,7 @@ import authRoutes from './routes/auth.routes'
 import usersRoutes from './routes/users.routes'
 import studentsRoutes from './routes/estudiantes.routes'
 import teacherRoutes from './routes/profesores.routes'
+import salonRoutes from './routes/salon.routes'
 
 
 
@@ -39,6 +40,9 @@ app.use('/api/auth', authRoutes)
 app.use('/api/users', usersRoutes)
 app.use('/api/student', studentsRoutes)
 app.use('/api/teacher', teacherRoutes)
+app.use('/api/salon', salonRoutes)
+
+
 
 
 export default app;
