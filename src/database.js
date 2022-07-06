@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
 //mongodb://localhost/collegedb
-//mongoose.connect("mongodb://mongo:Yi8APvNYTR55vpF3VrbQ@containers-us-west-66.railway.app:8077",{
-mongoose.connect("mongodb://localhost/collegedb",{    
+mongoose.connect("mongodb://mongo:Yi8APvNYTR55vpF3VrbQ@containers-us-west-66.railway.app:8077",{
+//mongoose.connect("mongodb://localhost/collegedb",{    
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
